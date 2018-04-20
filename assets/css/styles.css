@@ -343,17 +343,18 @@ header nav li:last-child{
 --------------------*/
 
 .reviews{
-	background-color: #fff;
+	background-color: cyan;
 }
 
 .reviews .quote{
 	text-align: center;
 	width: 80%;
-    font-size: 22px;
+    font-size: 40px;
     font-weight: 300;
     line-height: 1.5;
     margin-bottom: 20px;
     padding: 0;
+
 }
 
 .reviews .author{
@@ -384,7 +385,7 @@ header nav li:last-child{
 ---------------------*/
 
 .contact{
-	background-color: #f7f7f7;
+
 }
 
 .contact form{
@@ -474,10 +475,20 @@ footer p a{
 }
 
 
+
+
 /* -- Demo ads -- */
 
 @media (max-width: 1200px) {
 	#bsaHolder{ display:none;}
+}
+
+.unstyled-button {
+  border: none;
+  padding: 0;
+  background: none;
+  font-family: 'Playfair Display';
+	font-size: 50px;
 }
 
 
@@ -522,4 +533,61 @@ footer p a{
 		font-family: 'Playfair Display', serif;
 		font-size: 30px;
 		margin: auto;
+	text-align: justify;
+	text-justify: auto;
+	}
+.eq {
+	
+}
+		.iconabout {
+			padding-top: 30px;
+			width: 25%;
+    height: auto;
+		}
+.iconbutton
+{
+	width: 25%;
+height: auto;
+}
+.mobcont{
+
+
+
+   left:0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+
+ background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+ background-size: 1800% 1800%;
+
+ -webkit-animation: rainbow 7s ease infinite;
+ -z-animation: rainbow 7s ease infinite;
+ -o-animation: rainbow 7s ease infinite;
+   animation: rainbow 7s ease infinite;}
+
+ @-webkit-keyframes rainbow {
+     0%{background-position:0% 82%}
+     50%{background-position:100% 19%}
+     100%{background-position:0% 82%}
+ }
+ @-moz-keyframes rainbow {
+     0%{background-position:0% 82%}
+     50%{background-position:100% 19%}
+     100%{background-position:0% 82%}
+ }
+ @-o-keyframes rainbow {
+     0%{background-position:0% 82%}
+     50%{background-position:100% 19%}
+     100%{background-position:0% 82%}
+ }
+ @keyframes rainbow {
+     0%{background-position:0% 82%}
+     50%{background-position:100% 19%}
+     100%{background-position:0% 82%}
+ }
+
+.reviews{
+	background-color: white;
+}
 }
